@@ -7,6 +7,7 @@ body{
     height: 100vh;
     background-color: black;
     font-family: sans-serif;
+    font-weight: 600;
 }
 footer{
     height: 80px;
@@ -33,7 +34,7 @@ main > section{
 .flex{display: flex;}
 .ta-center{text-align: center;}
 .box{
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
     height: 100%;
 }
 .upgrade-container{
@@ -70,6 +71,7 @@ main > section{
 .icons{
     height: 25px;
     margin: 5px 0;
+    align-items: center;
 }
 .icons img{
    height: 100%;
@@ -85,11 +87,16 @@ main > section{
     line-height: 40px;
     vertical-align: middle;
     display: inline-block;
+    
+}
+.squareplus{
+    align-items: center;
     margin-bottom: 1em;
+
 }
 .overflow{
     height: 200px;
-    overflow-y: scroll;
+    overflow: auto;
 }
 .crea-playlist{
     line-height: 40px;
@@ -108,11 +115,14 @@ main > section{
 }
 .bottom-nav-section{
     text-align: center;
-    min-height: 230px;
+    min-height: 130px;
     flex-direction: column;
     align-content: flex-start;
     justify-content: flex-end;
     text-align: left;
+}
+.topnav-section{
+    height: calc(100% - 130px);
 }
 .profile{
     background: gray;
