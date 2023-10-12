@@ -312,6 +312,7 @@ main > section{
         width: calc(100% - 50px);
         flex-wrap: wrap;
     }
+   
     .topnav-section h5{
         display: none;
     }
@@ -341,6 +342,8 @@ main > section{
    .mainbox{
     flex-wrap: wrap;
    }
-   
+   .album1row .album2row{
+    flex-wrap: wrap;
+   }
    
 }
