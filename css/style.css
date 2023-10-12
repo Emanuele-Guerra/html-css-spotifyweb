@@ -92,6 +92,7 @@ main > section{
     width: calc(98% / 6);
     padding: 10px 10px 10px 0;
     
+    
 }
 .round-card img{
     border-radius: 50%;
@@ -204,7 +205,7 @@ main > section{
 
 .right-footer-sec{
     height: 100%;
-    min-width: 15%;
+    width: 30%;
 }
 .right-ft-container img{
     height: 80%;
@@ -215,18 +216,20 @@ main > section{
     align-items: center;
     height: 100%;
     align-content: center;
+    width: 30%;
+
 }
 .right-ft-container h6{
     color: white;
 }
-.ft-right-i{
-    justify-content: space-around;
-    align-content: flex-end;
-    align-items: center;
-    height: 100%;
-    width: 50px;
+.right-ft-container i{
+    margin: 0 0.5em;
     color: #828282;
     font-size: 12px;
+    margin: 0 0.5em;
+    justify-self: center;
+    align-self: center;
+    flex-wrap: wrap;
 }
 .ft-songName{
     color: #5A5A5A;
@@ -236,31 +239,34 @@ main > section{
 }
 .central-footer-sec{
     height: 100%;
-    margin: auto;
+    margin: 0 0.5em;
+    width: 30%;
 }
 .central-ft-containerUp{
     height: 50%;
-    max-width: 30%;
     margin: auto;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: white;
-    
-    
-    
+    width: 100%;
+}
+.central-ft-containerUp i{
+    margin: 0 0.5em;
 }
 .central-ft-containerDown{
     height: 50%;
     margin: auto;
     align-items: center;
     color: white;
-    max-width: 70%;
+    justify-content: center;
+    width: 100%;
+    
 }
 .minute{
     font-size: 10px;
 }
 .audio-string{
-    width: 500px;
+    width: 80%;
     height: 5px;
     background-color: #5A5A5A;
     border-radius: 15px;
@@ -269,26 +275,29 @@ main > section{
 }
 .ward-string{
     height: 5px;
-    width: 100px;
+    width: 30%;
     background-color: #C1C1C1;
     border-radius: 10px;
     position: absolute;
     left: 0;
 }
 .left-footer-sec{
-    min-width: 13%;
+    width: 30%;
     height: 100%;
     font-size: 12px;
+    
 }
 .left-ft-container{
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-between;
     height: 100%;
     color: white;
-
+}
+.left-ft-container i{
+    margin: 0 0.5em;
 }
 .audio-string2{
-    width: 100px;
+    width: 30%;
     height: 5px;
     background-color: #5A5A5A;
     border-radius: 15px;
@@ -297,9 +306,9 @@ main > section{
 }
 .ward-string2{
     height: 5px;
-    width: 30px;
+    width: 20%;
     background-color: #C1C1C1;
-   border-radius: 10px;
+    border-radius: 10px;
     position: absolute;
     left: 0;
 }
@@ -342,8 +351,10 @@ main > section{
    .mainbox{
     flex-wrap: wrap;
    }
-   .album1row .album2row{
+   .album-card{
+    width: calc(98% / 2);
+   }
+   .album1row{
     flex-wrap: wrap;
    }
-   
 }
