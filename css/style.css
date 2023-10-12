@@ -12,7 +12,10 @@ body{
 footer{
     height: 80px;
     width: 100%;
-    background-color: rgb(108, 108, 108);
+    background-color: #282828;
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
 }
 main{
     display: flex;
@@ -21,11 +24,11 @@ main{
 }
 main > nav{
     width: 200px;
-    background-color: blueviolet;
+    background-color: #000000;
     height: 100%;
 }
 main > section{
-    background-color: rgb(95, 68, 49);
+    background-color: #141922;
     width: calc(100% - 200px);
     height: 100%;
     overflow: auto;
@@ -37,18 +40,42 @@ main > section{
     padding: 1rem 1rem 0 1rem;
     height: 100%;
 }
+.box h3{
+    color: white;
+    padding-bottom: 0.5em;
+    font-size: 25px;
+    padding-top: 1em;
+}
+.box h5{
+    color: white;
+    padding-bottom: 0.5em;
+}
+.box h6{
+    color: #5A5A5A;
+    padding-bottom: 1em;
+}
 .upgrade-container{
     height: 80px;
     width: 100%;
-    background-color: rgb(125, 125, 125);
+    background-color: #080B12;
     justify-content: flex-end;
     align-items: center;
     padding-right: 1rem;
 }
+.button-upgrade button{
+    border: 2px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 1em 2em;
+    background-color: #080B12;
+    color: white;
+    cursor: pointer;
+
+}
 .options{
     width: 80%;
     margin: 0 auto 2rem auto;
-    background-color: coral;
+    color: #5A5A5A;
     justify-content: space-around;
     font-size: 10px;
 }
@@ -59,17 +86,28 @@ main > section{
 }
 .album-card img{
     width: 100%;
+    padding-bottom: 0.5em;
 }
 .album-card{
     width: calc(98% / 6);
     padding: 10px 10px 10px 0;
+    
 }
 .round-card img{
     border-radius: 50%;
     
 }
+.logobig{
+    margin-bottom: 1em;
+}
+.logobig img{
+    height: 40px;
+}
+.logosmall{
+    display: none;
+}
 .icons{
-    height: 25px;
+    height: 20px;
     margin: 5px 0;
     align-items: center;
 }
@@ -78,6 +116,10 @@ main > section{
 }
 .icon-text{
     font-size: 10px;
+    color: #6C6C6C;
+}
+.icon-text img{
+    filter: invert(41%) sepia(8%) saturate(24%) hue-rotate(353deg) brightness(99%) contrast(87%);
 }
 .plus-square{
     width: 40px;
@@ -87,6 +129,7 @@ main > section{
     line-height: 40px;
     vertical-align: middle;
     display: inline-block;
+    margin-right: 0.5em;
     
 }
 .squareplus{
@@ -97,6 +140,10 @@ main > section{
 .overflow{
     height: 200px;
     overflow: auto;
+    font-size: 14px;
+}
+.overflow p{
+    padding-bottom: 0.5em;
 }
 .crea-playlist{
     line-height: 40px;
@@ -135,4 +182,165 @@ main > section{
 }
 .p-topbot-1em{
     padding: 1em 0;
+}
+/* utilities */
+
+.gray{color: #6C6C6C;}
+.white{color: white;}
+
+.px10{font-size: 10px;}
+.px12{font-size: 12px;}
+.px14{font-size: 14px;}
+.px16{font-size: 16px;}
+.px18{font-size: 18px;}
+.px20{font-size: 20px;}
+.px30{font-size: 30px;}
+
+
+
+
+/* /utilities */
+
+
+.right-footer-sec{
+    height: 100%;
+    min-width: 15%;
+}
+.right-ft-container img{
+    height: 80%;
+    margin-right: 0.5em;
+
+}
+.right-ft-container{
+    align-items: center;
+    height: 100%;
+    align-content: center;
+}
+.right-ft-container h6{
+    color: white;
+}
+.ft-right-i{
+    justify-content: space-around;
+    align-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 50px;
+    color: #828282;
+    font-size: 12px;
+}
+.ft-songName{
+    color: #5A5A5A;
+}
+.ft-album-capture{
+    padding-right: 1em;
+}
+.central-footer-sec{
+    height: 100%;
+    margin: auto;
+}
+.central-ft-containerUp{
+    height: 50%;
+    max-width: 30%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    
+    
+    
+}
+.central-ft-containerDown{
+    height: 50%;
+    margin: auto;
+    align-items: center;
+    color: white;
+    max-width: 70%;
+}
+.minute{
+    font-size: 10px;
+}
+.audio-string{
+    width: 500px;
+    height: 5px;
+    background-color: #5A5A5A;
+    border-radius: 15px;
+    position: relative;
+    margin: 0 1em;
+}
+.ward-string{
+    height: 5px;
+    width: 100px;
+    background-color: #C1C1C1;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+}
+.left-footer-sec{
+    min-width: 13%;
+    height: 100%;
+    font-size: 12px;
+}
+.left-ft-container{
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    color: white;
+
+}
+.audio-string2{
+    width: 100px;
+    height: 5px;
+    background-color: #5A5A5A;
+    border-radius: 15px;
+    position: relative;
+
+}
+.ward-string2{
+    height: 5px;
+    width: 30px;
+    background-color: #C1C1C1;
+   border-radius: 10px;
+    position: absolute;
+    left: 0;
+}
+
+@media screen and (min-width: 350px) and (max-width: 820px){
+    main > nav{
+        width: 50px;
+    }
+    main > section{
+        width: calc(100% - 50px);
+        flex-wrap: wrap;
+    }
+    .topnav-section h5{
+        display: none;
+    }
+    .bottom-nav-section span{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .logosmall{
+        display: block;
+        width: 100%;
+        padding-bottom: 1em;
+    }
+    .squareplus{
+        display: none;
+    }
+    .overflow{
+        display: none;
+    }
+    .icons span{
+        display: none;
+    }
+    .logobig{
+        display: none;
+    }
+   .mainbox{
+    flex-wrap: wrap;
+   }
+   
+   
 }
