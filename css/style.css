@@ -73,21 +73,24 @@ main > section{
 
 }
 .options{
-    width: 80%;
-    margin: 0 auto 2rem auto;
+    width: 100%;
     color: #5A5A5A;
-    justify-content: space-around;
     font-size: 10px;
-    margin: 2em auto;
-    flex-wrap: wrap;
+    text-align: center;
+    display: inline-block;
+    
+    
+}
+.options ul{
+    justify-content: space-around;
     align-items: center;
-    
-    
+    flex-wrap: wrap;
 }
 .options li{
     display: inline;
     text-decoration: none;
-    margin: 0 2em;
+    margin-bottom: 1em;
+    
 }
 
 .album-card img{
@@ -434,7 +437,9 @@ main > section{
    .left-footer-sec i{
     font-size: 12px;
     margin: 0 5px;
+    
    }
+   
 }
 @media screen and (min-width: 820px) and (max-width: 1160px){
     .album-card{
@@ -450,10 +455,14 @@ main > section{
         cursor: pointer;
     }
     .audio-string:hover{
+        cursor: pointer;
         box-shadow: 0 0 2px 1px #bcbcbc
+        
     }
     .audio-string2:hover{
+        cursor: pointer;
         box-shadow: 0 0 2px 1px #bcbcbc
+        
     }
     .audio-string2:hover > .point2{
         display: block;
