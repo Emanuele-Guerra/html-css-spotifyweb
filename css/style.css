@@ -477,72 +477,92 @@ main > section{
     .audio-string:hover > .point{
         display: block;
         cursor: pointer;
+        transition: all 0.5s;
     }
     .audio-string:hover{
+        transition: all 0.5s;
         cursor: pointer;
         box-shadow: 0 0 2px 1px #bcbcbc
         
+        
     }
     .audio-string2:hover{
+        transition: all 0.5s;
         cursor: pointer;
         box-shadow: 0 0 2px 1px #bcbcbc
+        
         
     }
     .audio-string2:hover > .point2{
         display: block;
         cursor: pointer;
+        transition: all 0.5s;
     }
     .squareplus:hover .square-span{
         color: white;
         cursor: pointer;
+        transition: all 0.5s;
     }
     .squareplus:hover .fa-plus{
         color: white;
         cursor: pointer;
+        transition: all 0.5s;
     }
     .newplay:hover{
         color: white;
         cursor: pointer;
         font-size: 18px;
         padding-left: 0.5em;
+        transition: all 0.5s;
     }
     
     .icon-text:hover{
         color: white;
         cursor: pointer;
+        transition: all 0.5s;
     }
     .button-upgrade button:hover{
         transform: scale(1.1);
         border: 2px solid #20D762;
         color: #20D762;
         box-shadow: 0 0 2px 1px #20D762;
+        transition: all 0.5s;
     }
     .central-footer-sec i:hover{
         transform: scale(1.4);
         cursor: pointer;
+        transition: all 0.5s;
     }
     .left-footer-sec i:hover{
+        transition: all 0.5s;
         cursor: pointer;
         transform: scale(1.4)
+        
         
 
         
     }
     .right-footer-sec i:hover{
+        transition: all 0.5s;
         cursor: pointer;
         transform: scale(1.4)
+        
         
     }
     li:hover{
         color: white;
         cursor: pointer;
+        transition: all 0.5s;
         
     }
     .album-card:hover{
         cursor: pointer;
+        
     }
     .album-card:hover .mask{
         display: block;
+        transition: all 0.5s;
+        
     }
     
 }
