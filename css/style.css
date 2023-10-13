@@ -545,7 +545,7 @@ main > section{
     .right-footer-sec i:hover{
         transition: all 0.5s;
         cursor: pointer;
-        transform: scale(1.4)
+        transform: scale(2.0)
         
         
     }
@@ -553,6 +553,9 @@ main > section{
         color: white;
         cursor: pointer;
         transition: all 0.5s;
+        transform: scale(1.4);
+        border-bottom: 2px solid #20D762;
+        padding-bottom: 0.3em;
         
     }
     .album-card:hover{
