@@ -82,20 +82,44 @@ main > section{
     
 }
 .options ul{
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    text-align: center;
 }
 .options li{
-    display: inline;
+    display: inline-block;
     text-decoration: none;
-    margin-bottom: 1em;
+    margin: 1em;
     
+}
+.relative{
+    position: relative;
+    margin-bottom: 0.5em;
 }
 
 .album-card img{
     width: 100%;
-    padding-bottom: 0.5em;
+    display: block;
+    
+    
+    
+}
+.mask i{
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+.mask{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.655);
+    top: 0;
+    left: 0;
+    color: white;
+    display: none;
     
 }
 
@@ -515,8 +539,10 @@ main > section{
         
     }
     .album-card:hover{
-        transform: scale(1.1);
         cursor: pointer;
+    }
+    .album-card:hover .mask{
+        display: block;
     }
     
 }
