@@ -78,21 +78,24 @@ main > section{
     color: #5A5A5A;
     justify-content: space-around;
     font-size: 10px;
+    margin: 2em auto;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
 }
 .options li{
     display: inline;
     text-decoration: none;
-    padding: 0 1rem;
+    margin: 0 2em;
 }
+
 .album-card img{
     width: 100%;
     padding-bottom: 0.5em;
     
 }
-.mask{
-    width: calc(98% / 6);
-    
-}
+
 
 .album-card{
     width: calc(98% / 6);
@@ -153,6 +156,9 @@ main > section{
     height: 200px;
     overflow: auto;
     font-size: 14px;
+    margin-top: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 .overflow p{
     padding-bottom: 0.5em;
@@ -443,6 +449,12 @@ main > section{
         display: block;
         cursor: pointer;
     }
+    .audio-string:hover{
+        box-shadow: 0 0 2px 1px #bcbcbc
+    }
+    .audio-string2:hover{
+        box-shadow: 0 0 2px 1px #bcbcbc
+    }
     .audio-string2:hover > .point2{
         display: block;
         cursor: pointer;
@@ -458,7 +470,10 @@ main > section{
     .newplay:hover{
         color: white;
         cursor: pointer;
+        font-size: 18px;
+        padding-left: 0.5em;
     }
+    
     .icon-text:hover{
         color: white;
         cursor: pointer;
@@ -467,6 +482,7 @@ main > section{
         transform: scale(1.1);
         border: 2px solid #20D762;
         color: #20D762;
+        box-shadow: 0 0 2px 1px #20D762;
     }
     .central-footer-sec i:hover{
         transform: scale(1.4);
@@ -487,8 +503,11 @@ main > section{
     li:hover{
         color: white;
         cursor: pointer;
+        
     }
     .album-card:hover{
         transform: scale(1.1);
+        cursor: pointer;
     }
+    
 }
